@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 
 import { read } from 'read';
 import bcrypt from 'bcryptjs';
