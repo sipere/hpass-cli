@@ -1,0 +1,20 @@
+{
+  "name": "@sipere/hpass-cli",
+  "version": "1.0.0",
+  "description": "Hash password",
+  "bin": {
+    "hpass": "hpass.js"
+  },
+  "keywords": ["hash", "password"],
+  "author": "Sallai András",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "read": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sipere/hpass-cli.git"
+  }
+}
