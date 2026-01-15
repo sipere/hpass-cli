@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import { read } from 'read';
-import bcrypt from 'bcryptjs';
+const { read } = require('read');
+const  bcrypt  = require('bcrypt');
 
 async function inputPassword() {
     const password = await read({

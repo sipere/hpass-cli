@@ -5,12 +5,15 @@
   "bin": {
     "hpass": "hpass.js"
   },
-  "keywords": ["hash", "password"],
+  "keywords": [
+    "hash",
+    "password"
+  ],
   "author": "Sallai András",
   "license": "MIT",
-  "type": "module",
+  "type": "commonjs",
   "dependencies": {
-    "bcryptjs": "^3.0.3",
+    "bcrypt": "^6.0.0",
     "read": "^5.0.1"
   },
   "repository": {
@@ -19,5 +22,5 @@
   },
   "publishConfig": {
     "access": "public"
-  } 
+  }
 }
